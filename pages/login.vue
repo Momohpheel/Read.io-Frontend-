@@ -3,7 +3,6 @@
     <div class="text-fields">
       <input type="text" class="title" placeholder="Username or E-mail">
       <input type="password" class="article" placeholder="Password">
-
       <div>
         <button>Login</button>
       </div>

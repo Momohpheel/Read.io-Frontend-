@@ -9,7 +9,7 @@
       <input type="text" class="title" placeholder="Phone">
       <textarea type="text" class="description" placeholder="Description"></textarea>
       <div>
-        <button>Login</button>
+        <button>Sign Up</button>
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ export default {
 
 <style>
 .container {
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 10% 10% 10%;
   margin-left: 15%;
   width: 50%;
