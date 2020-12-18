@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <HeadSection />
-      <br>
-      <MidSection />
+
     </div>
 
   </div>
@@ -11,13 +9,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import HeadSection from '../components/HeadSection.vue'
-import MidSection from '../components/MidSection.vue'
 
 export default {
   components:{
-    HeadSection,
-    MidSection
+
   }
 
 }

@@ -1,9 +1,9 @@
 <template>
   <div class="mid">
-
+    <div class="card">
       <h4 class="recent">Recent posts</h4>
-      <nuxt-link to="/"><li>View all</li></nuxt-link>
-
+      <nuxt-link to="/" ><li class="view">View all</li></nuxt-link>
+    </div>
     <div class="card">
       <div class="card1">
         <h2>Making a design system from scratch</h2>
@@ -47,12 +47,13 @@ export default {
  }
 .card{
   display: flex;
+  margin: 10px 70px 10px 70px;
 }
 .card1{
   background-color: white;
   color: #21243D;
   flex: 1;
-  margin: 60px 0px 10px 70px;
+  margin:  10px;
   padding: 30px;
 }
 li{
@@ -61,5 +62,9 @@ li{
 }
 .recent{
   padding: 25px 0px 0px 35px;
+}
+.view{
+  padding: 25px 0px 0px 680px;
+
 }
 </style>

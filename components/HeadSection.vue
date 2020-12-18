@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <div class="text">
+
       <h1 class="head">Hi, I am John, Creative Technologist</h1>
       <br>
       <p class="desc">
@@ -10,6 +11,7 @@
       </p>
       <br>
         <button class="button">Download Resume</button>
+
     </div>
   <div class="image">
       <img src="../assets/book2.png" width="170%"/>
@@ -27,17 +29,21 @@ export default {
 *{
   margin: 0;
   box-sizing: border-box;
-
+  padding:0;
 }
 .app{
+  width:80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .text{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   color: #21243D;
-  padding: 80px 100px 0px 60px;
-  flex: 2;
   min-height: 70vh;
 }
 .head{
@@ -46,7 +52,6 @@ export default {
 }
 .desc{
   text-align: left;
-
 }
 .button{
   padding: 10px;
@@ -54,9 +59,11 @@ export default {
   color: white;
   margin-left: 0%;
   border: none;
-
+width: 30%;
 }
 .image{
-  flex:1;
+
+  width:30%;
+
 }
 </style>
